@@ -26,9 +26,33 @@ void func()
     cout << "p2 = " << p2 << endl; // 
 }
 
+// 引用作函数返回值
+// 不能让返回局部变量的引用
+int & func2()
+{
+    int a = 10;
+    return a;
+}
+
+// 返回引用函数可以做左值
+int & func3(int *&p)
+{
+    p = new int(11);
+    return *p; // 指针的引用
+}
+
 int main()
 {
-    func();
+    // func();
+
+    // int a = func2();
+    // cout << a << endl; // 可以正常返回10 相当于 main::a = func::a
+    // int &r = func2();
+    // cout << r << endl; // 不能正常返回, 引用相当于长指针， func是局部变量执行后释放。 r无法正确的引用
+
+    int *p = nullptr;
+    func3(p) = 1111;
+    cout << "*p = " << *p << endl;
 
     return 0;
 }
