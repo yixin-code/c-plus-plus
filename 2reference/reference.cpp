@@ -16,26 +16,26 @@ void func()
     A *p = &a;
 
     // 64位
-    cout << "sizeof(r) = " << sizeof(r) << endl; // 16 是变量本身的大小
-    cout << "sizeof(a) = " << sizeof(a) << endl; // 16
+    cout << "sizeof(r) = " << sizeof(r) << endl;   // 16 是变量本身的大小
+    cout << "sizeof(a) = " << sizeof(a) << endl;   // 16
     cout << "sizeof(&r) = " << sizeof(&r) << endl; // 8 可以理解成引用本身的大小
-    cout << "sizeof(p) = " << sizeof(p) << endl; // 8
+    cout << "sizeof(p) = " << sizeof(p) << endl;   // 8
 
     A *p2 = &r;
-    cout << "&r = " << &r << endl;  // 对引用取地址 就是对引用变量本身取地址
-    cout << "p2 = " << p2 << endl; // 
+    cout << "&r = " << &r << endl; // 对引用取地址 就是对引用变量本身取地址
+    cout << "p2 = " << p2 << endl; //
 }
 
 // 引用作函数返回值
 // 不能让返回局部变量的引用
-int & func2()
+int &func2()
 {
     int a = 10;
     return a;
 }
 
 // 返回引用函数可以做左值
-int & func3(int *&p)
+int &func3(int *&p)
 {
     p = new int(11);
     return *p; // 指针的引用
