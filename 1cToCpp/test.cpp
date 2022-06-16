@@ -2,6 +2,12 @@
 
 using namespace std;
 
+struct A // cpp中可以在结构体中加入函数
+{
+    int m_a;
+    void func();
+};
+
 enum Num
 {
     zero,
@@ -10,12 +16,15 @@ enum Num
     three
 };
 
+// 全局区的const 在C中也是不可修改的
+const int g_a = 11;
+
 void typeEnhance()
 {
     int *p = (int *)malloc(11); // 在C++ 中必须强转
 
-    // const int a = 11;
-    // int *p2 = &a; // 这个我记得在VS上是可以的， p2会是一个临时空间地址
+    // const int a = 11; // C++中的const在符号表中, 并不会分配内存
+    // int *p2 = &a; // 这个不同编译器不同？ 在VS中p2会指向临时开辟的空间
     // *p2 = 111;
     // cout << "a = " << a << endl;
 
