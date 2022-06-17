@@ -14,6 +14,7 @@ public:
         m_num = 0;
     }
 
+    // 防止隐士类型转换
     explicit Test(int num)
     {
         m_str = "none";
