@@ -1,6 +1,6 @@
 // 静态成员函数不能调用普通成员变量， 没有this指针
 // 静态属于整个类， 并不属于某一个对象
-//
+// 初始化的时候不要static
 #include <iostream>
 
 using namespace std;
