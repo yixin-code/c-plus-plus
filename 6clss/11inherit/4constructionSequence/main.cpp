@@ -20,7 +20,7 @@ class B : public A
 {
 public:
     // 继承不会继承构造 析构 拷贝构造
-    // 会继承赋值运算符， 但是由于默认提供会被重载
+    // 会继承赋值运算符， 但是由于默认提供会被重载覆盖, 可以理解成也不会继承
     // 需要先构造父类
     B(int a, int a2) : A(a) { this->m_a = a2; cout << "son" << endl; }
     ~B() { cout << "son destructor" << endl; }
