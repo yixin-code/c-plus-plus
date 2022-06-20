@@ -73,3 +73,47 @@ std::istream &operator>>(std::istream &in, MyString &ms)
 
     return in;
 }
+
+MyString MyString::operator+(const char *str)
+{
+    int tempSize = this->m_size + strlen(str);
+    // char *temp = new char[tempSize + 1];
+    this->m_str = (char *)realloc(this->m_str, tempSize + 1);
+    strcat(this->m_str, str);
+    this->m_size = tempSize;
+
+    return *this;
+}
+
+MyString MyString::operator+(const MyString &ms)
+{
+    int tempSize = this->m_size + strlen(ms.m_str);
+    this->m_str = (char *)realloc(this->m_str, tempSize + 1);
+    strcat(this->m_str, ms.m_str);
+    this->m_size = tempSize;
+
+    return *this;
+}
+
+int MyString::getSize() const
+{
+    return this->m_size;
+}
+
+bool MyString::operator==(const char *str)
+{
+    if (strcmp(this->m_str, str) == 0)
+    {
+        return true;
+    }
+    return false;
+}
+
+bool MyString::operator==(const MyString &ms)
+{
+    if (strcmp(this->m_str, m_str) == 0)
+    {
+        return true;
+    }
+    return false;
+}

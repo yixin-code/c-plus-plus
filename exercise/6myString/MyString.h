@@ -16,4 +16,11 @@ public:
     MyString(const MyString &ms);
     MyString operator=(const MyString &ms);
     ~MyString();
+
+    int getSize() const;
+
+    MyString operator+(const char *str);
+    MyString operator+(const MyString &ms);
+    bool operator==(const char *str);
+    bool operator==(const MyString &ms);
 };
