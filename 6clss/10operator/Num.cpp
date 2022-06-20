@@ -1,6 +1,7 @@
 #include "Num.h"
 #include <iostream>
 #include <string.h>
+#include <string>
 
 Num::Num()
 {
@@ -124,4 +125,19 @@ Num &Num::operator=(Num &n)
 char &Num::operator[](int index)
 {
     return this->m_p[index];
+}
+
+// 其实这东西关系多了用起来并不方便， 还不如返回一个int 已正负0来判断
+bool Num::operator==(Num &n)
+{
+    if (this->m_num == n.m_num)
+    {
+        return true;
+    }
+    return false;
+}
+
+void Num::operator()(std::string str)
+{
+    std::cout << str << std::endl;
 }

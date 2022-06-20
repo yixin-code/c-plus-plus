@@ -25,5 +25,9 @@ public:
     Num& operator++(); // 前置++ 内置 可以++++num 所以需要返回引用
     Num operator++(int); // 后置++ 内置 不可以 num++++ 所以返回值
     char &operator[](int index);
+    bool operator==(Num &n);
+
+    // 仿函数
+    void operator()(std::string str);
     void display();
 };

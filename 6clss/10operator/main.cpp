@@ -1,3 +1,4 @@
+// 不要重载 && 和 || 会造成原本的短路特性失效
 #include "Num.h"
 #include "SmartPoint.h"
 #include <iostream>
@@ -59,6 +60,19 @@ int main(int argc, char *argv[])
 
     n5[0] = 'x';
     cout << n5 << endl;
+
+    if (n5 == n4)
+    {
+        cout << "相等" << endl;
+    }
+    else
+    {
+        cout << "不相等" << endl;
+    }
+
+    n5("aaa");
+    // 匿名对象调用仿函数
+    Num()("bbbb");
 
 	// getchar();
     return 0;
