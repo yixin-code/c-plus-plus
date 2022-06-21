@@ -1,4 +1,5 @@
 // 父类指针或引用指向子类对象
+// 多态利于后期扩展，结构好，可读性高，但由于内部结构效率稍低（和C相比）
 #include <iostream>
 
 using namespace std;
