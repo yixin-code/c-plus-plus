@@ -3,7 +3,7 @@
 
 class Weapon
 {
-private:
+protected:
     std::string m_name;
     int m_atk;
 
