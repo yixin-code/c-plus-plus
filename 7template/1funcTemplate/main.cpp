@@ -1,3 +1,4 @@
+// 模板会编译两次，对模板本身进行一次编译， 在调用时参数替换再次进行编译
 #include <iostream> 
 
 template<class T>
