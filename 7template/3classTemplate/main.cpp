@@ -12,17 +12,25 @@ private:
     AgeType m_age;
 
 public:
-    Person(NameType name, AgeType age)
-    {
-        this->m_name = name;
-        this->m_age = age;
-    }
+    Person(NameType name, AgeType age);
+    // {
+    //     this->m_name = name;
+    //     this->m_age = age;
+    // }
     //  成员函数只有在运行的时候才会被创建
     void dispaly()
     {
         std::cout << this->m_name << " " << this->m_age << std::endl;
     }
 };
+
+// 类外初始化
+template <class NameType, class AgeType>
+Person<NameType, AgeType>::Person(NameType name, AgeType age)
+{
+    this->m_name = name;
+    this->m_age = age;
+}
 
 // 类模板做参数
 // void test(Person<std::string, int> &p)
@@ -48,8 +56,6 @@ int main()
 
     test(p);
     test(p2);
-
-
 
     return 0;
 }
