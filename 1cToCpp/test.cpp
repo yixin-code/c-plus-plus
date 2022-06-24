@@ -55,7 +55,7 @@ void func(int *a)
 
 int main()
 {
-    func(NULL); // 0 调用func(long long a)
+    // func(NULL); // 0 调用func(long long a)
     func(nullptr); // 空指针类型 调用func(int *a)
 
     return 0;
