@@ -31,3 +31,9 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+			
+// cmath
+//          2.1	    2.9	    -2.1	-2.9
+// floor()  2	    2	    -3	    -3
+// ceil()	3	    3	    -2	    -2
+// round()	2	    3	    -2	    -3

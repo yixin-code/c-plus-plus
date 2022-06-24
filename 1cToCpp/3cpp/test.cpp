@@ -1,3 +1,4 @@
+// 算数运算只有 int long float double 其他都会转换成这些类型
 #include <iostream>
 
 using namespace std;
