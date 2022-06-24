@@ -42,6 +42,7 @@ void typeEnhance()
     (a = b) = c; // c++中返回的是引用
 }
 
+// long long 在任何系统下都是32位
 void func(long long a)
 {
     cout << "a = " << a << endl;
