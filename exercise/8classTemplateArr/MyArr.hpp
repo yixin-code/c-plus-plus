@@ -12,7 +12,7 @@ public:
     explicit MyArr()
     {
         this->m_capacity = 11;
-        this->m_size = ;
+        this->m_size = 0;
         this->m_arr = new T[m_capacity];
     }
 
@@ -52,13 +52,24 @@ public:
         }
     }
 
-    T &operator[](int index)
+    T &operator[](int index) const
     {
-        return this->m_capacity[index];
+        return this->m_arr[index];
     }
 
     void back_push(T data)
     {
-        
+        this->m_arr[this->m_size] = data;
+        this->m_size++;
+    }
+
+    int getCapacity() const
+    {
+        return this->m_capacity;        
+    }
+
+    int getSize() const
+    {
+        return this->m_size;
     }
 };
