@@ -13,7 +13,7 @@ template <class ValType, class ValType2>
 class A
 {
     // 直接写到类中很简单
-    // friend void display(A &a)
+    // friend void display(A<ValType, ValType2> &a)
     // {
     //     std::cout << a.val << " " << a.val2 << std::endl;
     // }
@@ -35,7 +35,7 @@ public:
 };
 
 template <class ValType, class ValType2>
-void display(A<int, std::string> &a)
+void display(A<ValType, ValType2> &a)
 {
     std::cout << a.val << " " << a.val2 << std::endl;
 }
