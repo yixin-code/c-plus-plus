@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdint> // int头文件，大部分编译器可以不加
+#include <string>
 
 // 类型
 void test()
@@ -26,12 +27,17 @@ void test()
     std::cout << "---------------------------" << std::endl;
 }
 
-// 中文字符
+// 中文
 void test2()
 {
     char16_t c = u'阿';
     char32_t c2 = u'阿';
     std::cout << c << " " << c2 << std::endl;
+    std::cout << "---------------------------" << std::endl;
+
+    std::wstring str; // 非11
+    std::u16string str2;
+    std::u32string str3;
     std::cout << "---------------------------" << std::endl;
 }
 
