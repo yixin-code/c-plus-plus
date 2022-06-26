@@ -20,14 +20,18 @@ void xget2()
     char a = 0;
     cin.get() >> a;
     cout << "b = " << a << endl;
-
-    string str;
-    
 }
 
 void xgetline()
 {
+    char buf[1024]{0};
+    cin.getline(buf, 1024); // 读取字符串会舍弃换行符
+    cout << buf << endl; 
 
+    string str;
+    // cout << str << endl;
+    getline(cin, str);
+    cout << str << endl;
 }
 
 void xignore()
@@ -48,9 +52,7 @@ void xpeek()
 
 void xputback()
 {
-    // char buf[1024]{0};
-    // cin.getline(buf, 1024); // 读取字符串会舍弃换行符
-    // cout << buf << endl; 
+
     // cin.putback('a');
     // char a = cin.get();
     // cout << a << endl;
@@ -67,6 +69,7 @@ int main(int argc, char *argv[])
     // xignore();
     // xpeek();
     // xputback();
+    xgetline();
 
     return 0;
 }
