@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector\main.cpp(149,8): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector\main.cpp(150,12): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector\main.cpp(151,11): error C2661: “std::vector<int,std::allocator<int>>::resize”: 没有重载函数接受 0 个参数
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector\main.cpp(153,12): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector\main.cpp(154,12): error C2660: “std::vector<int,std::allocator<int>>::reserve”: 函数不接受 0 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(1524,23): message : 参见“std::vector<int,std::allocator<int>>::reserve”的声明
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector\main.cpp(156,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值

@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(178,39): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(188,35): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(198,24): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(209,27): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(219,37): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(229,25): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(246,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(256,41): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(266,33): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(277,40): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(287,45): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(297,37): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(314,49): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(324,38): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(334,32): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(346,40): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(356,42): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(366,36): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(450,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\string\main.cpp(466,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  string.vcxproj -> C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\x64\Debug\string.exe
