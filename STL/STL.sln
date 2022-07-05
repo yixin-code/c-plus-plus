@@ -25,7 +25,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set(集合)multiset(多重�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pair(队组)", "pair(队组)\pair(队组).vcxproj", "{3C8A7ECD-CE2D-495D-90B1-26AD813DB572}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "map", "map\map.vcxproj", "{F67F7A70-ACC0-486D-8079-1CDAC460294B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "map(映射)", "map\map.vcxproj", "{F67F7A70-ACC0-486D-8079-1CDAC460294B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "案例-员工分组", "案例-员工分组\案例-员工分组.vcxproj", "{65BC9916-F633-471C-8366-B5CB18204D7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数对象", "函数对象\函数对象.vcxproj", "{0E62A441-FAE2-40B0-8F40-FB6200AABC46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "谓词", "谓词\谓词.vcxproj", "{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "适配器", "适配器\适配器.vcxproj", "{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "常用算法", "常用算法\常用算法.vcxproj", "{F640DC69-421B-40AD-A1B7-E39FF9399956}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +141,46 @@ Global
 		{F67F7A70-ACC0-486D-8079-1CDAC460294B}.Release|x64.Build.0 = Release|x64
 		{F67F7A70-ACC0-486D-8079-1CDAC460294B}.Release|x86.ActiveCfg = Release|Win32
 		{F67F7A70-ACC0-486D-8079-1CDAC460294B}.Release|x86.Build.0 = Release|Win32
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Debug|x64.ActiveCfg = Debug|x64
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Debug|x64.Build.0 = Debug|x64
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Debug|x86.ActiveCfg = Debug|Win32
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Debug|x86.Build.0 = Debug|Win32
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Release|x64.ActiveCfg = Release|x64
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Release|x64.Build.0 = Release|x64
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Release|x86.ActiveCfg = Release|Win32
+		{65BC9916-F633-471C-8366-B5CB18204D7E}.Release|x86.Build.0 = Release|Win32
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Debug|x64.ActiveCfg = Debug|x64
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Debug|x64.Build.0 = Debug|x64
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Debug|x86.Build.0 = Debug|Win32
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Release|x64.ActiveCfg = Release|x64
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Release|x64.Build.0 = Release|x64
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Release|x86.ActiveCfg = Release|Win32
+		{0E62A441-FAE2-40B0-8F40-FB6200AABC46}.Release|x86.Build.0 = Release|Win32
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Debug|x64.ActiveCfg = Debug|x64
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Debug|x64.Build.0 = Debug|x64
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Debug|x86.Build.0 = Debug|Win32
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Release|x64.ActiveCfg = Release|x64
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Release|x64.Build.0 = Release|x64
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Release|x86.ActiveCfg = Release|Win32
+		{FEC76E81-A055-420E-9AF5-060C6CC4F0AC}.Release|x86.Build.0 = Release|Win32
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Debug|x64.ActiveCfg = Debug|x64
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Debug|x64.Build.0 = Debug|x64
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Debug|x86.Build.0 = Debug|Win32
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Release|x64.ActiveCfg = Release|x64
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Release|x64.Build.0 = Release|x64
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Release|x86.ActiveCfg = Release|Win32
+		{CCAB91B4-22A5-4CF1-93B7-0D74DB14E0EF}.Release|x86.Build.0 = Release|Win32
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Debug|x64.ActiveCfg = Debug|x64
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Debug|x64.Build.0 = Debug|x64
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Debug|x86.ActiveCfg = Debug|Win32
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Debug|x86.Build.0 = Debug|Win32
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Release|x64.ActiveCfg = Release|x64
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Release|x64.Build.0 = Release|x64
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Release|x86.ActiveCfg = Release|Win32
+		{F640DC69-421B-40AD-A1B7-E39FF9399956}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

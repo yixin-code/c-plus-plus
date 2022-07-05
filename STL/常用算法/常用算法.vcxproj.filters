@@ -18,5 +18,17 @@
     <ClCompile Include="遍历算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="查找算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="排序算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拷贝替换交换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="算数算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

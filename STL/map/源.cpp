@@ -74,6 +74,8 @@ void test2()
 	//无效插入 key值不能重复
 	m.insert(make_pair(1, 434));
 
+	m.emplace(1, 1);
+
 	//还可以使用value_type
 	//map<int, int>::key_type; //key
 	//map<int, int>::mapped_type;	//value
@@ -180,6 +182,9 @@ void test4()
 		{11,111}
 	};
 
+	// 查找 返回迭代器
+	auto it = m.find(3);
+
 	map<int, int> m2;
 
 	//初始迭代器 指向第一个元素
@@ -233,7 +238,7 @@ void test4()
 	it_pair++;
 	it_pair++;
 	it_pair++;
-	auto pval2 = it_pair;
+	auto &pval2 = it_pair;
 	if (mvcomp(*pval, *pval2))
 	{
 		cout << "pval less than pval2" << endl;

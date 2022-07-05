@@ -79,7 +79,7 @@ void test14()
 	cout << endl;
 }
 
-int main()
+int main1()
 {
 	//test12();
 	//test13();
