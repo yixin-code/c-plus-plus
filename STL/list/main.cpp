@@ -263,7 +263,9 @@ void test5()
 	cout << endl;
 	cout << l.size() << endl;	//10
 
-	//排序	默认升序 可以使用谓词改变
+	// 排序	默认升序 可以使用谓词改变
+	// list 在内存中不是连续的空间
+	// 全局函数sort实现中需要随机访问
 	l.sort();
 	for (auto it = l.begin(); it != l.end(); ++it)
 	{
