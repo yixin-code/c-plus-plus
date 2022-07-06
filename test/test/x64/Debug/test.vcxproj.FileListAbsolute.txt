@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\test\test\x64\Debug\test.vcxproj.MdMergeInputs.cache
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\test\test\x64\Debug\test.vcxproj.cppwinrt_plat.cache
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\test\test\x64\Debug\test.vcxproj.cppwinrt_comp.cache
