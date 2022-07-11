@@ -1,0 +1,6 @@
+﻿  源.cpp
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector源码刨析\源.cpp(3,1): error C2332: “class”: 缺少标记名
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector源码刨析\源.cpp(3,1): error C3306: “<unnamed-tag>”: 不允许存在未命名的类 模板
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector源码刨析\源.cpp(3,1): error C2628: “<unnamed-tag>”后面接“int”是非法的(是否忘记了“;”?)
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector源码刨析\源.cpp(3,5): error C2146: 语法错误: 缺少“;”(在标识符“main”的前面)
+C:\Users\Administrator\Desktop\yixin-code\c-plus-plus\stl\vector源码刨析\源.cpp(4,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
